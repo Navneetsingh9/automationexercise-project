@@ -54,8 +54,8 @@ class CartPage(BasePage):
         return self.is_element_visible(self.EMPTY_CART_MESSAGE)
     
     def get_cart_total(self):
-        """Get cart total (simplified)"""
-        # This is a simplified version - you can expand as needed
+        """Get cart total"""
+        # This is a simplified version
         prices = self.driver.find_elements(*self.PRODUCT_PRICE_IN_CART)
         total = 0
         for price in prices:
