@@ -36,7 +36,7 @@ class LoginPage(BasePage):
     REGISTER_MOBILE = (By.ID, "mobile_number")
     REGISTER_CREATE_ACCOUNT = (By.XPATH, "//button[@data-qa='create-account']")
     
-    # Success Messages - Updated with better locators
+    # Success Messages 
     ACCOUNT_CREATED = (By.XPATH, "//*[contains(text(),'Account Created') or contains(text(),'Account Created!')]")
     ACCOUNT_CREATED_HEADING = (By.TAG_NAME, "h2")
     CONTINUE_BUTTON = (By.XPATH, "//a[contains(text(),'Continue')]")
