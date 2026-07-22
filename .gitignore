@@ -1,0 +1,42 @@
+# Virtual Environment
+venv/
+env/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Logs
+logs/
+*.log
+
+# Reports
+reports/
+*.html
+
+# Screenshots
+screenshots/failures/
+screenshots/*.png
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test cache
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Allure
+.allure/
