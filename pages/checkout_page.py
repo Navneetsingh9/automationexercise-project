@@ -33,7 +33,7 @@ class CheckoutPage(BasePage):
     CARD_EXPIRY_YEAR = (By.NAME, "expiry_year")
     PAY_CONFIRM = (By.ID, "submit")
     
-    # Success Page - FIXED locator
+    # Success Page 
     ORDER_PLACED = (By.XPATH, "//*[contains(text(),'ORDER PLACED') or contains(text(),'Order Placed') or contains(text(),'ORDER PLACED!')]")
     ORDER_CONFIRMED = (By.XPATH, "//*[contains(text(),'order has been confirmed') or contains(text(),'congratulations')]")
     
